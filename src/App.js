@@ -1,13 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import VotingPanel from './Components/VotingPanel';
 
 function App() {
+  const message = "React Voting app....."
   return (
     <div className="App">
-      <header className="App-header">
+      <VotingPanel></VotingPanel>
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Arriving Soon: {message}
         </p>
         <a
           className="App-link"
@@ -17,7 +20,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
